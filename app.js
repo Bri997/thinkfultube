@@ -6,14 +6,7 @@ const API_KEY = 'AIzaSyDi8P6Mcr_qrUcgI8tQBrR-4B-3IY_ewZc'
 const URL = 'https://www.googleapis.com/youtube/v3/search';
 
 
-// // buildApiRequest('GET',
-// //                 URL,
-// //                 {'maxResults': '10',
-// //                  'part': 'snippet',
-// //                  'key': API_KEY,
-// //                  'q': '',
-// //                  'type': ''});
-//
+
 function getDataFromApi(searchTerm, callback){
   console.log(callback);
   const query = {
